@@ -1,0 +1,142 @@
+body{
+  font-family: sans-serif;
+  
+}
+.logo img 
+{
+  max-height: 50px;
+}
+.header
+{
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+  position: sticky;
+}
+.logo{
+  margin-left: 100px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.sbtn
+{
+  margin-top: 33px;
+  /* border: 2px solid black; */
+  /* padding-right: 20px; */
+  text-align: center;
+}
+.hlist li{
+  cursor: pointer;
+  list-style: none;    
+  float: left;
+  font-size: 14px;
+  margin: 0px 20px;
+  padding: 24px 0;
+}
+.sig{
+  
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 14px;
+  background-color: white;
+  width: 80px;
+  box-shadow: 2px 2px 2px;
+  cursor: pointer;
+}
+.sigu{
+  cursor: pointer;
+  font-size: 14px;
+  width: 100px;
+  border-radius: 4px;
+  padding: 5px;
+  color: white;
+  background-color: #19ddc4;
+  border: 1px solid black;
+  box-shadow: 8px 8px 8px;
+  
+}
+.fsearch
+{
+  cursor: pointer;
+  /* border: 2px solid black; */
+  margin-top: 40px;
+  margin-right: 100px;
+}
+.coverphoto
+{
+  background-image: url(https://polar.gbjsolution.com/content/images/2017/05/cover-image.jpg);
+  /* background-size: cover; */
+  height: 60vh;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  flex-direction: column;
+  /* align-content: center; */
+  /* text-align: center; */
+  align-items: center;
+  color: #ffff;
+  background-position: center center;
+  
+}
+.content
+{
+  text-align: center;
+  height: 50vh;
+}
+.footer
+{
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.copyr
+{
+  margin-top: 18px;
+  
+}
+.copyr a{
+  /* margin: 10px; */
+  text-decoration: none;
+  color: black;
+}
+.logos{
+  margin-right: 10%;
+}
+.logos ul li {
+  list-style: none;
+  display: inline;
+  justify-content: space-between;
+  margin-right: 10px;
+} 
+.logos ul li a 
+{
+  text-decoration: none;
+  color: #999999;
+}
+.card{
+  padding: 50px;
+  border-radius: 1px;
+  box-shadow: 2px 2px 2px #00000025;
+ margin-top: 30px;
+ text-align: center;
+}
+.container{
+  
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.blog-title{
+  text-align: center;
+  color: gray;
+  font-size: 20px;
+}
+.blog-subtile{
+  text-align: center;
+ 
+}
